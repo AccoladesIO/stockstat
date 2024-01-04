@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+@layer components{
+    .custom-scrollbar::-webkit-scrollbar{
+        width: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb{
+        background: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb{
+        background-color: #a5b4fc;
+        width:5px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+
+}
